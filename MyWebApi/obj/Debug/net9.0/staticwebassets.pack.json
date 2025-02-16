@@ -1,0 +1,437 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\1PW2.png",
+      "PackagePath": "staticwebassets\\images\\1PW2.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\1V52.png",
+      "PackagePath": "staticwebassets\\images\\1V52.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\35QF.png",
+      "PackagePath": "staticwebassets\\images\\35QF.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\3C8_323_4787827_3735511921_5.png",
+      "PackagePath": "staticwebassets\\images\\3C8_323_4787827_3735511921_5.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\3MG6.png",
+      "PackagePath": "staticwebassets\\images\\3MG6.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\3TP9.png",
+      "PackagePath": "staticwebassets\\images\\3TP9.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\4LAH.png",
+      "PackagePath": "staticwebassets\\images\\4LAH.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\5OCT.png",
+      "PackagePath": "staticwebassets\\images\\5OCT.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\5PZ6.png",
+      "PackagePath": "staticwebassets\\images\\5PZ6.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\6LWX.png",
+      "PackagePath": "staticwebassets\\images\\6LWX.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\6S5R.png",
+      "PackagePath": "staticwebassets\\images\\6S5R.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\6YJA.png",
+      "PackagePath": "staticwebassets\\images\\6YJA.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\7BY5.png",
+      "PackagePath": "staticwebassets\\images\\7BY5.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\7C05.png",
+      "PackagePath": "staticwebassets\\images\\7C05.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\7RI4.png",
+      "PackagePath": "staticwebassets\\images\\7RI4.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\89JY.png",
+      "PackagePath": "staticwebassets\\images\\89JY.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\8E94.png",
+      "PackagePath": "staticwebassets\\images\\8E94.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\8IWG.png",
+      "PackagePath": "staticwebassets\\images\\8IWG.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\8NFS.png",
+      "PackagePath": "staticwebassets\\images\\8NFS.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\8SFC.png",
+      "PackagePath": "staticwebassets\\images\\8SFC.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\8WJB.png",
+      "PackagePath": "staticwebassets\\images\\8WJB.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\9ASH.png",
+      "PackagePath": "staticwebassets\\images\\9ASH.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\9LJ0.png",
+      "PackagePath": "staticwebassets\\images\\9LJ0.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\9LRB.png",
+      "PackagePath": "staticwebassets\\images\\9LRB.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\9UCG.png",
+      "PackagePath": "staticwebassets\\images\\9UCG.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\9UGZ.png",
+      "PackagePath": "staticwebassets\\images\\9UGZ.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\9VGB.png",
+      "PackagePath": "staticwebassets\\images\\9VGB.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\BEPQ.png",
+      "PackagePath": "staticwebassets\\images\\BEPQ.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\BNH8.png",
+      "PackagePath": "staticwebassets\\images\\BNH8.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\BR17.png",
+      "PackagePath": "staticwebassets\\images\\BR17.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\COQK.png",
+      "PackagePath": "staticwebassets\\images\\COQK.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\CVUB.png",
+      "PackagePath": "staticwebassets\\images\\CVUB.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\DC5Z.png",
+      "PackagePath": "staticwebassets\\images\\DC5Z.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\DYW8.png",
+      "PackagePath": "staticwebassets\\images\\DYW8.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\ELMO.png",
+      "PackagePath": "staticwebassets\\images\\ELMO.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\FU4A.png",
+      "PackagePath": "staticwebassets\\images\\FU4A.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\GFAN.png",
+      "PackagePath": "staticwebassets\\images\\GFAN.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\GWA8.png",
+      "PackagePath": "staticwebassets\\images\\GWA8.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\H16P.png",
+      "PackagePath": "staticwebassets\\images\\H16P.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\H25O.png",
+      "PackagePath": "staticwebassets\\images\\H25O.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\HCT4.png",
+      "PackagePath": "staticwebassets\\images\\HCT4.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\HQJ5.png",
+      "PackagePath": "staticwebassets\\images\\HQJ5.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\HYFE.png",
+      "PackagePath": "staticwebassets\\images\\HYFE.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\IMN8.png",
+      "PackagePath": "staticwebassets\\images\\IMN8.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\IPZJ.png",
+      "PackagePath": "staticwebassets\\images\\IPZJ.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\IU6K.png",
+      "PackagePath": "staticwebassets\\images\\IU6K.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\Immagine.png",
+      "PackagePath": "staticwebassets\\images\\Immagine.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\JKCN.png",
+      "PackagePath": "staticwebassets\\images\\JKCN.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\JQAZ.png",
+      "PackagePath": "staticwebassets\\images\\JQAZ.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\JUA5.png",
+      "PackagePath": "staticwebassets\\images\\JUA5.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\K3J5.png",
+      "PackagePath": "staticwebassets\\images\\K3J5.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\KUQY.png",
+      "PackagePath": "staticwebassets\\images\\KUQY.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\L38E.png",
+      "PackagePath": "staticwebassets\\images\\L38E.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\LBRG.png",
+      "PackagePath": "staticwebassets\\images\\LBRG.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\M5P3.png",
+      "PackagePath": "staticwebassets\\images\\M5P3.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\M6T1.png",
+      "PackagePath": "staticwebassets\\images\\M6T1.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\N0BV.png",
+      "PackagePath": "staticwebassets\\images\\N0BV.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\N425.png",
+      "PackagePath": "staticwebassets\\images\\N425.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\O3LA.png",
+      "PackagePath": "staticwebassets\\images\\O3LA.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\OHE7.png",
+      "PackagePath": "staticwebassets\\images\\OHE7.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\OHUM.png",
+      "PackagePath": "staticwebassets\\images\\OHUM.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\OIP.png",
+      "PackagePath": "staticwebassets\\images\\OIP.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\OSCR.png",
+      "PackagePath": "staticwebassets\\images\\OSCR.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\OX7J.png",
+      "PackagePath": "staticwebassets\\images\\OX7J.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\OYP4.png",
+      "PackagePath": "staticwebassets\\images\\OYP4.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\P10K.png",
+      "PackagePath": "staticwebassets\\images\\P10K.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\PY8I.png",
+      "PackagePath": "staticwebassets\\images\\PY8I.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\Q60I.png",
+      "PackagePath": "staticwebassets\\images\\Q60I.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\QGIS.png",
+      "PackagePath": "staticwebassets\\images\\QGIS.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\QMVI.png",
+      "PackagePath": "staticwebassets\\images\\QMVI.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\QPG9.png",
+      "PackagePath": "staticwebassets\\images\\QPG9.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\RKEG.png",
+      "PackagePath": "staticwebassets\\images\\RKEG.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\RM39.png",
+      "PackagePath": "staticwebassets\\images\\RM39.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\RUGK.png",
+      "PackagePath": "staticwebassets\\images\\RUGK.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\S1K6.png",
+      "PackagePath": "staticwebassets\\images\\S1K6.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\SJUW.png",
+      "PackagePath": "staticwebassets\\images\\SJUW.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\SMR4.png",
+      "PackagePath": "staticwebassets\\images\\SMR4.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\SP16.png",
+      "PackagePath": "staticwebassets\\images\\SP16.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\T1ES.png",
+      "PackagePath": "staticwebassets\\images\\T1ES.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\TXBD.png",
+      "PackagePath": "staticwebassets\\images\\TXBD.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\TYSF.png",
+      "PackagePath": "staticwebassets\\images\\TYSF.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\V10P.png",
+      "PackagePath": "staticwebassets\\images\\V10P.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\VZEA.png",
+      "PackagePath": "staticwebassets\\images\\VZEA.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\VZQP.png",
+      "PackagePath": "staticwebassets\\images\\VZQP.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\W30J.png",
+      "PackagePath": "staticwebassets\\images\\W30J.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\W3QU.png",
+      "PackagePath": "staticwebassets\\images\\W3QU.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\W9AK.png",
+      "PackagePath": "staticwebassets\\images\\W9AK.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\WB5M.png",
+      "PackagePath": "staticwebassets\\images\\WB5M.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\WIR7.png",
+      "PackagePath": "staticwebassets\\images\\WIR7.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\WL5P.png",
+      "PackagePath": "staticwebassets\\images\\WL5P.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\X14B.png",
+      "PackagePath": "staticwebassets\\images\\X14B.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\XIQE.png",
+      "PackagePath": "staticwebassets\\images\\XIQE.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\XL8F.png",
+      "PackagePath": "staticwebassets\\images\\XL8F.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\XSOJ.png",
+      "PackagePath": "staticwebassets\\images\\XSOJ.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\XU0N.png",
+      "PackagePath": "staticwebassets\\images\\XU0N.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\XUM8.png",
+      "PackagePath": "staticwebassets\\images\\XUM8.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\XYFZ.png",
+      "PackagePath": "staticwebassets\\images\\XYFZ.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\Y0G2.png",
+      "PackagePath": "staticwebassets\\images\\Y0G2.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\YHPJ.png",
+      "PackagePath": "staticwebassets\\images\\YHPJ.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\YS38.png",
+      "PackagePath": "staticwebassets\\images\\YS38.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\Z61E.png",
+      "PackagePath": "staticwebassets\\images\\Z61E.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\ZHF3.png",
+      "PackagePath": "staticwebassets\\images\\ZHF3.png"
+    },
+    {
+      "Id": "C:\\Users\\Valerio\\test_rabbit\\MyWebApi\\wwwroot\\images\\foto_valerio.png",
+      "PackagePath": "staticwebassets\\images\\foto_valerio.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyWebApi.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.MyWebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.MyWebApi.props",
+      "PackagePath": "build\\MyWebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.MyWebApi.props",
+      "PackagePath": "buildMultiTargeting\\MyWebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.MyWebApi.props",
+      "PackagePath": "buildTransitive\\MyWebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

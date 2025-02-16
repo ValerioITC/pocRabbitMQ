@@ -1,0 +1,75 @@
+@page "/upload"
+@inject IJSRuntime JSRuntime
+@inject HttpClient Http
+
+<h3>Carica immagini JPEG</h3>
+<InputFile OnChange="@HandleFileChange" multiple accept="image/jpeg" maxAllowedSize="10 * 1024 * 1024" />
+
+@* <InputFile OnChange="@HandleFileChange" multiple /> *@
+
+@if (files != null)
+{
+    <ul>
+        @foreach (var file in files)
+        {
+            <li>@file.Name</li>
+        }
+    </ul>
+}
+
+<button @onclick="UploadFiles" disabled="@(files == null || files.Count == 0)">Carica</button>
+
+@if (uploading)
+{
+    <p>Caricamento in corso...</p>
+}
+
+@if (downloadLink != null)
+{
+    <a href="@downloadLink" target="_blank">Scarica PNG</a>
+}
+
+@code {
+    private List<IBrowserFile> files = new List<IBrowserFile>();
+    private bool uploading;
+    private string downloadLink = "";
+    private void HandleFileChange(InputFileChangeEventArgs e)
+    {
+        files = e.GetMultipleFiles(maximumFileCount: 1000).ToList(); //max 1000 files
+    }
+    private async Task UploadFiles()
+    {
+        uploading = true;
+
+        // Suddividi i file in batch (ad esempio, 10 file per batch)
+        var batchSize = 10;
+        var batches = files.Chunk(batchSize);
+
+        foreach (var batch in batches)
+        {
+            var content = new MultipartFormDataContent();
+            foreach (var file in batch)
+            {
+                var stream = file.OpenReadStream(maxAllowedSize: 10 * 1024 * 1024); // 10 MB
+                content.Add(new StreamContent(stream), "files", file.Name);
+            }
+
+            var response = await Http.PostAsync("http://localhost:5072/api/Convert/convert", content);
+
+            if (!response.IsSuccessStatusCode)
+            {
+                // Gestisci errori
+                await JSRuntime.InvokeVoidAsync("alert", "Errore durante la conversione");
+                uploading = false;
+                return;
+            }
+
+            // Attendi un po' tra un batch e l'altro (opzionale)
+            await Task.Delay(250); // 250ms di attesa tra i batch
+        }
+
+        uploading = false;
+        await JSRuntime.InvokeVoidAsync("alert", "Tutti i file sono stati caricati con successo!");
+    }
+
+}
