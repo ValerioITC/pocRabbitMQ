@@ -40,7 +40,13 @@ public class Worker : BackgroundService
         using var channel = await connection.CreateChannelAsync();
         {
             //Classic queue
-            //await channel.QueueDeclareAsync(queue: "convert_queue", durable: false, exclusive: false, autoDelete: false, arguments: null);
+                //await channel.QueueDeclareAsync(
+                //queue: "convert_queue",
+                //durable: true,
+                //exclusive: false,
+                //autoDelete: false,
+                //arguments: null
+                // );
 
             // Quorum queue
             await channel.QueueDeclareAsync(
