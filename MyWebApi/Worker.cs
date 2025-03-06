@@ -5,17 +5,20 @@ using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.Processing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Microsoft.AspNetCore.SignalR;
 
 // Worker service per la conversione da JPEG a PNG
 public class Worker : BackgroundService
 {
     private readonly IConfiguration _configuration;
     private readonly ILogger<Worker> _logger;
+    private readonly IHubContext<ConversionHub> _hubContext;
 
-    public Worker(IConfiguration configuration, ILogger<Worker> logger)
+    public Worker(IConfiguration configuration, ILogger<Worker> logger, IHubContext<ConversionHub> hubContext)
     {
         _configuration = configuration;
         _logger = logger;
+        _hubContext = hubContext; // Inizializza SignalR HubContext
     }
 
     // Modello per i messaggi RabbitMQ
@@ -92,6 +95,10 @@ public class Worker : BackgroundService
                     var pngUrl = await SavePng(message.FileName, pngBytes);
 
                     _logger.LogInformation($"Conversione completata: {pngUrl}");
+                    
+                    // Notifica il frontend tramite SignalR
+                    await _hubContext.Clients.All.SendAsync("ConversionSuccess", pngUrl);
+
                 }
                 catch (Exception ex)
                 {

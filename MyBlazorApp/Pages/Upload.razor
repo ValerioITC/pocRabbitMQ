@@ -1,11 +1,13 @@
 @page "/upload"
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.SignalR.Client
 @inject IJSRuntime JSRuntime
 @inject HttpClient Http
+@inject NavigationManager NavigationManager
 
 <h3>Carica immagini JPEG</h3>
 <InputFile OnChange="@HandleFileChange" multiple accept="image/jpeg" maxAllowedSize="10 * 1024 * 1024" />
-
-@* <InputFile OnChange="@HandleFileChange" multiple /> *@
 
 @if (files != null)
 {
@@ -24,19 +26,48 @@
     <p>Caricamento in corso...</p>
 }
 
-@if (downloadLink != null)
+@if (convertedFiles.Count > 0)
 {
-    <a href="@downloadLink" target="_blank">Scarica PNG</a>
+    <h4>File convertiti:</h4>
+    <ul>
+        @foreach (var file in convertedFiles)
+        {
+            <li>
+                <a href="http://localhost:5072/@file" target="_blank">Scarica @file</a>
+            </li>
+        }
+    </ul>
 }
 
 @code {
     private List<IBrowserFile> files = new List<IBrowserFile>();
     private bool uploading;
-    private string downloadLink = "";
+    private List<string> convertedFiles = new List<string>(); // Lista per i file convertiti
+    private HubConnection hubConnection; // SignalR HubConnection
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Configura SignalR
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl("http://localhost:5072/conversionHub") // URL completo del backend
+            .Build();
+
+        // Ascolta le notifiche di conversione
+        hubConnection.On<string>("ConversionSuccess", (fileUrl) =>
+        {
+            convertedFiles.Add(fileUrl); // Aggiungi il file convertito alla lista
+            StateHasChanged(); // Forza il rendering dell'interfaccia utente
+        });
+
+        // Avvia la connessione SignalR
+        await hubConnection.StartAsync();
+    }
+
     private void HandleFileChange(InputFileChangeEventArgs e)
     {
-        files = e.GetMultipleFiles(maximumFileCount: 1000).ToList(); //max 1000 files
+        files = e.GetMultipleFiles(maximumFileCount: 1000).ToList(); // Max 1000 file
     }
+
     private async Task UploadFiles()
     {
         uploading = true;
@@ -72,4 +103,11 @@
         await JSRuntime.InvokeVoidAsync("alert", "Tutti i file sono stati caricati con successo!");
     }
 
+    public async ValueTask DisposeAsync()
+    {
+        if (hubConnection is not null)
+        {
+            await hubConnection.DisposeAsync(); // Chiudi la connessione SignalR
+        }
+    }
 }
