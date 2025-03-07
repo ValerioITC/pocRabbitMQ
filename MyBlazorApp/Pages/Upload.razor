@@ -43,7 +43,7 @@
     private List<IBrowserFile> files = new List<IBrowserFile>();
     private bool uploading;
     private List<string> convertedFiles = new List<string>(); // Lista per i file convertiti
-    private HubConnection hubConnection; // SignalR HubConnection
+    private HubConnection? hubConnection; // SignalR HubConnection
 
     protected override async Task OnInitializedAsync()
     {
